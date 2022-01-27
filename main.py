@@ -28,8 +28,7 @@ def extrac_data():
     return extract_result
 
 
-
-def data_display(result: object):
+def data_display(result):
     print('Recent earthquake data from BMKG')
     print(f"Lokasi: {result['date']}")
     print(f"Waktu: {result['time']}")
@@ -42,7 +41,6 @@ def data_display(result: object):
 
 if __name__ == "__main__":
     print('Aplikasi Utama')
-
 
     result = extrac_data()
     data_display(result)
