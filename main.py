@@ -43,5 +43,6 @@ def data_display(result: object):
 if __name__ == "__main__":
     print('Aplikasi Utama')
 
+
     result = extrac_data()
     data_display(result)
