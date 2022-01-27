@@ -28,6 +28,7 @@ def extrac_data():
     return extract_result
 
 
+
 def data_display(result: object):
     print('Recent earthquake data from BMKG')
     print(f"Lokasi: {result['date']}")
